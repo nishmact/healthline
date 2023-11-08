@@ -1,0 +1,346 @@
+.maindiv {
+    background-color: whitesmoke;
+}
+
+.header {
+    background-color: black;
+    height: 70px;
+    display: grid;
+    grid-template-columns: 400px 200px 130px 110px 130px 300px 100px 90px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+   
+
+}
+.one-div {
+    color: white;
+   padding-top: 10px;
+    text-align: end;
+    font-size: 45px;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+.two-div,
+.three-div,
+.four-div,
+.five-div,
+.six-div,
+.seven-div {
+   color: white;
+   text-align: center;
+   padding-top: 25px;
+   font-size: 20px;
+   font-weight: 40px;
+   text-align: end;
+   cursor: pointer;
+}
+
+.two-div:hover{
+    color: orange
+}
+.three-div:hover{
+    color: orange
+}
+.four-div:hover{
+    color: orange
+}
+.five-div:hover{
+    color: orange
+}
+.six-div:hover{
+    color: orange
+}
+.seven-div:hover{
+    color: orange
+}
+
+
+.sub-div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.imageone {
+    
+    margin-top: 110px;
+    margin-left: 200px;
+    height: 550px;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 3;
+    
+}
+.imageone:hover{
+    opacity: .70;
+}
+.imagetwo:hover {
+    opacity: .70;
+}
+
+.container {
+     position: relative;
+     
+}
+.text {
+    position: absolute;
+    top: 60%;
+    left: 225px;
+    background-color: whitesmoke;
+    font-weight: 80px;
+    height: 200px;
+    margin-top: 10px;
+    width: 550px;
+   
+}
+.title {
+    padding-left: 8px;
+    cursor: pointer;
+}
+.title:hover {
+    color: rgb(212, 10, 212);
+}
+.subtittle {
+    padding-left: 8px;
+    margin-top: 10px;
+    color: rgb(87, 83, 83);
+    cursor: pointer;
+}
+.subtittletwo {
+    padding-left: 8px;
+    color: rgb(87, 83, 83);
+    cursor: pointer;
+}
+.subtitleone {
+    padding-left: 8px;
+    cursor: pointer;
+
+}
+.subtitleone:hover {
+    color: rgb(212, 10, 212);
+}
+
+.texttwo {
+    display: grid;
+    grid-template-rows: 70% 30%;
+}
+.row {
+    width: 450px;
+    height: 200px;
+    background-color: white;
+    margin-left: 120px;
+    margin-right: 100px;
+    margin-top: 0px;
+   
+    
+}
+
+.imagetwo {
+    margin-top: 10px;
+    width: 450px;
+    margin-top: 110px;
+    height: 350px;
+    margin-left: 120px;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-right: 150px;
+}
+.innerimage {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+.third-row {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 100px;
+
+    background-color: whitesmoke;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: gray;
+   margin-left: 200px;
+  margin-right: 150px;
+}
+.explore {
+   font-family: Roboto, Arial;
+   
+   margin-left: 10px;
+}
+.view {
+    
+   text-align: right;
+    color: #02838d;
+    padding-right: 150px;
+    cursor: pointer;
+
+    
+}
+.view:hover {
+    color: rgb(212, 10, 212);
+}
+.fourth-row {
+    background-color: whitesmoke;
+    height: 280px;
+    display: grid;
+    grid-template-columns: 220px 220px 220px 220px 220px ;
+    margin-top: 50px;
+    margin-left: 250px;
+    
+    
+}
+.picone,
+.pictwo,
+.picthree,
+.picfour,
+.picsix {
+    width: 200px;
+    height: 200px;
+    margin-right: 100px;
+   
+}
+.columnone,
+.columntwo,
+.columnthree,
+.columnfour,
+.columnfive,
+.columnsix {
+    font-size: 20px;
+    text-align: center;
+    font-family: Roboto, Arial;
+    cursor: pointer;
+}
+
+.columnfive:hover {
+     opacity: .70;
+     color: rgb(212, 10, 212);
+}
+.columnfour:hover {
+    opacity: .70;
+    color: rgb(212, 10, 212);
+}
+.columnthree:hover {
+    opacity: .70;
+    color: rgb(212, 10, 212);
+}
+.columntwo:hover {
+    opacity: .70;
+    color: rgb(212, 10, 212);
+}
+.columnone:hover {
+    opacity: .70;
+    color: rgb(212, 10, 212);
+
+}
+
+
+.fifthrow {
+    margin-left: 200px;
+    font-family: Roboto, Arial;
+    height: 50px;
+    font-size: 25px;
+
+    background-color: whitesmoke;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: gray;
+   margin-left: 200px;
+   margin-right: 150px;
+   margin-top: 80px;
+  
+
+}
+.sixthrow {
+    background-color: whitesmoke;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 170px 300px 300px 400px  ;
+    margin-left: 200px;
+    
+}
+.diabetespic {
+    width: 150px;
+    height: 130px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.diabetespic:hover {
+     opacity: .70;
+}
+.diabetestittle {
+    font-family: Roboto, Arial;
+    margin-left: 4px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 25px;
+    
+}
+.diabetestittle:hover {
+    color: rgb(212, 10, 212);
+}
+
+
+.icecreampic {
+    width: 150px;
+    height: 130px;
+   margin-left: 250px;
+   margin-top: 30px;
+   cursor: pointer;
+
+}
+.icecreampic:hover{
+    opacity: .70;
+}
+.icecreamtittle {
+    margin-left: 120px;
+    margin-top: 30px;
+    font-family: Roboto, Arial;
+    cursor: pointer;
+    font-size: 25px;
+}
+.icecreamtittle:hover {
+    color: rgb(212, 10, 212);
+}
+.seniormanpic {
+    width: 150px;
+    height: 130px;
+    padding-top: 1px;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.seniormanpic:hover {
+    opacity: .70;
+}
+.seniormantittle {
+    font-family: Roboto, Arial;
+    margin-left: 4px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.seniormantittle:hover {
+    color: rgb(212, 10, 212);
+}
+.motherpic {
+    width: 150px;
+    height: 130px;
+   margin-left: 250px;
+   cursor: pointer;
+
+}
+.motherpic:hover {
+    opacity: .70;
+}
+.mothertittle {
+    margin-left: 120px;
+    font-family: Roboto, Arial;
+    cursor: pointer;
+    font-size: 25px;
+
+}
+.mothertittle:hover {
+    color: rgb(212, 10, 212);
+} 
